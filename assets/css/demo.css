@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'libre_franklinblack';
+    src: url('../fonts/libre-franklin/librefranklin-black-webfont.woff2') format('woff2'),
+         url('../fonts/libre-franklin/librefranklin-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'libre_franklinlight';
+    src: url('../fonts/libre-franklin/librefranklin-light-webfont.woff2') format('woff2'),
+         url('../fonts/libre-franklin/librefranklin-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'libre_franklinbold';
+    src: url('../fonts/libre-franklin/librefranklin-bold-webfont.woff2') format('woff2'),
+         url('../fonts/libre-franklin/librefranklin-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'libre_franklinmedium';
+    src: url('../fonts/libre-franklin/librefranklin-medium-webfont.woff2') format('woff2'),
+         url('../fonts/libre-franklin/librefranklin-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.dark-blue {background:#060551;}
+.fntlight {font-family: 'libre_franklinlight';}
+.border-bottom-1 {border:none;  border-bottom: 1px solid #E3E3E3;}
+
+ #target {
+        min-width : 100px;
+		  max-width : 500px;
+		  width:auto;
+		  display: inline-block;
+        height: 41px;
+        line-height: 40px;
+        text-align: center;
+         background: url("../img/cntr.png") repeat 0 0;
+        margin: 0 auto;
+        position: relative;
+		color:#e5d977;
+		padding: 0 12px;
+		font-weight: bold;
+    font-family: 'libre_franklinlight';
+    font-size: 1.25em; 
+	outline:none;     
+	}
+	#target>span {background: url("../img/dot.png") no-repeat 0 0; position:absolute;left:50%;bottom:5px;width:4px;height:4px;}
+      #target:before, #target:after {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top:0;
+      }
+      #target:before {
+        content:"";
+        background: url("../img/left-btn.png") no-repeat 0 0;
+        left:-32px;
+      }
+      #target:after {
+        content:"";
+        background: url("../img/right-btn.png") no-repeat 0 0;
+        right:-100px;
+      }
+	  
+ #target2 {
+        min-width : 100px;
+		  max-width : 500px;
+		  width:auto;
+		  display: inline-block;
+        height: 41px;
+        line-height: 40px;
+        text-align: center;
+         background: url("../img/cntr.png") repeat 0 0;
+        margin: 0 auto;
+        position: relative;
+		color:#e5d977;
+		padding: 0 12px;
+		font-weight: bold;
+    font-family: 'libre_franklinlight';
+    font-size: 1.25em;      
+	}
+	#target2>span {background: url("../img/dot.png") no-repeat 0 0; position:absolute;left:50%;bottom:5px;width:4px;height:4px;}
+      #target2:before, #target2:after {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top:0;
+      }
+      #target2:before {
+        content:"";
+        background: url("../img/left-btn-2.png") no-repeat 0 0;
+        left:-32px;
+      }
+      #target2:after {
+        content:"";
+        background: url("../img/right-btn.png") no-repeat 0 0;
+        right:-100px;
+      }
+	  
+.cursor-pointer {cursor:pointer;}
+.selectbar button {border:none;  border-bottom: 2px solid #fff;opacity: 1;}
+.selectbar button:hover {border:none;  border-bottom: 2px solid #060551;color:#060551!important;}	  
+.selectbar-active {border:none;  border-bottom: 2px solid #060551!important;color:#060551;}
+.select-cur-fnt {font-weight: bold; font-family: 'libre_franklinlight'; cursor:pointer;}
+.buy-pa {color: #fff;font-size: 2em;display: inline-block;line-height: 3em;margin: 0 0 0 1em;}
+
+@media (max-width:575px){
+	.col-sm-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}
+	.modal-dialog2 {margin: -70px 0 30px -17px!important;}
+	.buy-pa {color: #fff;font-size: 1em;display: inline;line-height: 3em;margin: 0 0 0 1em;}
+
+}
+
